@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+#admin-box {
+    background-color: red;
+    text-align: center;
+    width: 400px;
+    padding: 50px 50px 100px;
+    margin:5% auto;
+    border: 20px double green;
+   
+}
+#admin-box h1 ::after {
+    content: " ";
+    display: black;
+    border-top: 3px solid black;
+}
+.login-page{
+    color: blue;
+}
+#forget-box{
+    background-color: purple;
+    text-align: center;
+    width: 300px;
+    padding: 50px;
+    margin: 20px;
+    border: 15px solid green;
+}
+#register-page{
+    background-color: aqua;
+    text-align: center;
+    width: 300px;
+    padding: 50px;
+    margin: 20px;
+    border: 15px solid green;
+}
+input,label{
+    display: black;
+}
